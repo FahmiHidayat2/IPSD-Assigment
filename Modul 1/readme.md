@@ -429,5 +429,6 @@ Kode ini menerapkan algoritma pencarian biner untuk menemukan posisi angka dalam
 
 ## Referensi
 [1]	R. B. Wimawan, “Tipe Data Sederhana,” hal. 6, 2019.
+
 [2]	D. Rahmat, S. A’zizah, dan S. Mulyani, “Perkalian Menggunakan Bahasa Pemrograman Perulangan (Looping) Berbantu Sublime Text Dan Xampp,” Djtechno J. Teknol. Inf., vol. 3, no. 2, hal. 149–155, 2022, doi: 10.46576/djtechno.v3i2.2417.
 
