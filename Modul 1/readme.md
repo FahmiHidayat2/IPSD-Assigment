@@ -130,6 +130,8 @@ def print_prime_pattern(rows):
 print_prime_pattern(5)
 ```
 Kode ini berfungsi untuk mencetak pola bilangan prima dalam bentuk segitiga. Terdapat tiga fungsi utama. Pertama, fungsi is_prime(n) digunakan untuk memeriksa apakah sebuah angka adalah bilangan prima atau tidak. Kedua, fungsi generate_primes(limit) menghasilkan sejumlah bilangan prima yang dibutuhkan. Ketiga, fungsi print_prime_pattern(rows) mencetak pola segitiga dengan jumlah baris sesuai yang diminta. Pada setiap baris, jumlah bilangan prima yang dicetak bertambah sesuai nomor baris, misalnya baris pertama mencetak 1 bilangan prima, baris kedua mencetak 2 bilangan prima, dan seterusnya. Contohnya, jika diminta mencetak pola dengan 5 baris, maka bilangan prima akan dicetak dalam format segitiga dengan 5 baris bertingkat.
+#### Sreenshot Full Code
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/bbd37e60-0a2b-49b1-846a-f0f5833df7fa">
 
 #### Output:
 <img width="118" alt="image" src="https://github.com/user-attachments/assets/c1e2fe4e-1d2f-49f4-b33c-de691fa41172">
@@ -147,6 +149,8 @@ hasil = gabung_ganjil_urut(list1, list2)
 print(hasil)
 ```
 Kode ini berfungsi untuk menggabungkan dua list dan mengembalikan elemen-elemen yang berada di posisi ganjil, diurutkan secara menurun. Pertama, fungsi gabung_ganjil_urut(list1, list2) menggabungkan list1 dan list2 menjadi satu list. Kemudian, dengan menggunakan list comprehension, fungsi ini memilih elemen-elemen yang berada di indeks ganjil (yaitu, yang memiliki indeks 1, 3, 5, dan seterusnya) dari list yang sudah digabung. Hasilnya adalah list baru yang berisi elemen-elemen tersebut. Setelah itu, list ini diurutkan dalam urutan menurun menggunakan fungsi sorted() dengan parameter reverse=True. Dalam contoh ini, ketika fungsi dipanggil dengan list1 = [1, 3, 5] dan list2 = [7, 5, 9, 10, 11], hasilnya adalah list yang berisi elemen di posisi ganjil dari gabungan kedua list tersebut, dicetak dalam urutan menurun. Sebagai output, program akan menampilkan hasil yang sesuai dengan proses ini.
+#### Sreenshot Full Code
+<img width="373" alt="image" src="https://github.com/user-attachments/assets/0a176637-3ee2-46ba-9002-ee31d89f211d">
 
 #### Output
 <img width="101" alt="image" src="https://github.com/user-attachments/assets/a743189e-c5f2-4042-bc74-9f78ed1f3b59">
@@ -188,6 +192,8 @@ def atm_simulation():
 atm_simulation()
 ```
 Kode ini mensimulasikan penggunaan mesin ATM dengan fitur verifikasi PIN dan penarikan saldo. Pertama, fungsi atm_simulation() menetapkan PIN yang benar dan saldo awal pengguna. Pengguna diberikan tiga kali kesempatan untuk memasukkan PIN yang benar. Jika PIN yang dimasukkan salah setelah tiga percobaan, program akan memberi tahu bahwa kartu telah diblokir. Jika PIN benar, pengguna kemudian diminta untuk memasukkan jumlah yang ingin ditarik. Program memeriksa apakah jumlah yang diminta melebihi saldo yang tersedia. Jika saldo mencukupi, penarikan berhasil dan saldo diperbarui; jika tidak, pengguna diberi tahu tentang saldo yang tidak mencukupi. Selain itu, jika pengguna memasukkan input yang tidak valid untuk jumlah penarikan, program akan meminta pengguna untuk memasukkan jumlah yang valid. Dengan demikian, program ini menciptakan pengalaman yang realistis dalam menggunakan mesin ATM.
+#### Sreenshot Full Code
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/386d8cf7-762a-4cda-832b-4291099f4b14">
 
 #### Output
 <img width="253" alt="image" src="https://github.com/user-attachments/assets/f17b0bd6-6fcf-4dff-b27c-5233368489ec">
@@ -239,6 +245,11 @@ if __name__ == "__main__":
     main()
 ```
 Kode ini berfungsi untuk membaca data dari file CSV yang berisi informasi nilai mahasiswa, menghitung rata-rata nilai, serta menentukan mahasiswa dengan nilai tertinggi dan terendah. Fungsi baca_data_csv(file_name) digunakan untuk membuka file CSV, membaca data, dan menyimpannya dalam sebuah dictionary, di mana nama mahasiswa menjadi kunci dan nilai-nilai mereka disimpan sebagai list. Setelah itu, fungsi hitung_rata_rata(data_mahasiswa) menghitung rata-rata nilai setiap mahasiswa dan mengembalikannya dalam dictionary baru. Fungsi mahasiswa_tertinggi_terendah(rata_rata) mengidentifikasi mahasiswa dengan rata-rata tertinggi dan terendah menggunakan fungsi max() dan min(). Fungsi main() mengatur alur program dengan memanggil ketiga fungsi di atas, kemudian mencetak rata-rata nilai setiap mahasiswa serta menyebutkan siapa yang memiliki nilai tertinggi dan terendah. Program ini dirancang untuk memberikan ringkasan nilai mahasiswa dengan cara yang terstruktur dan mudah dimengerti.
+#### Sreenshot Full Code
+<img width="464" alt="image" src="https://github.com/user-attachments/assets/33159528-beb8-438b-a841-a79207add2a1">
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/5c0f5f2a-be5a-43f5-8572-f845ec4c1888">
+
+
 #### Output
 <img width="188" alt="image" src="https://github.com/user-attachments/assets/5cc3c5f9-2898-4981-89cd-519381b3c2ba">
 <img width="131" alt="image" src="https://github.com/user-attachments/assets/11a79f3b-b131-4c9a-9e40-3070a9106af9">
@@ -281,6 +292,9 @@ def tebak_angka():
 tebak_angka()
 ```
 Kode ini merupakan permainan sederhana bernama "Tebak Angka" di mana pemain diminta untuk menebak angka rahasia yang dipilih secara acak antara 1 hingga 100. Fungsi tebak_angka() dimulai dengan memilih angka rahasia menggunakan random.randint(), kemudian memberikan pemain lima percobaan untuk menebak angka tersebut. Pemain diminta untuk memasukkan tebakan mereka, dan program akan memberikan umpan balik apakah tebakan terlalu kecil, terlalu besar, atau benar. Jika tebakan berada di luar rentang yang ditentukan (1 hingga 100), pemain akan diberi tahu untuk mencoba lagi. Jika pemain berhasil menebak angka dengan benar, program akan memberi selamat; jika tidak, setelah lima percobaan, program akan mengungkapkan angka rahasia yang sebenarnya. Program ini mengedepankan interaksi pengguna dan penanganan kesalahan input dengan memberikan instruksi yang jelas kepada pemain.
+#### Screenshot Full Code
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/2c8529ca-7c85-42dc-9d9d-258fd60c375b">
+
 #### Output
 <img width="374" alt="image" src="https://github.com/user-attachments/assets/78ccac87-d944-4b33-8d4f-891d9241c74b">
 
@@ -301,6 +315,9 @@ n = 4
 print(factorial_sequence(n))
 ```
 Kode ini berfungsi untuk menghasilkan urutan faktorial dari angka yang diberikan menggunakan pendekatan rekursif. Fungsi factorial_sequence(n) menerima satu argumen, yaitu n, dan menghasilkan sebuah list yang berisi faktorial dari semua bilangan bulat dari 0 hingga n. Jika n adalah 0, fungsi mengembalikan list yang berisi nilai faktorial 0, yaitu 1. Jika n lebih besar dari 0, fungsi memanggil dirinya sendiri dengan argumen n-1 untuk mendapatkan urutan faktorial dari angka sebelumnya. Setelah mendapatkan urutan tersebut, faktorial dari n dihitung dengan mengalikan faktorial dari n-1 dengan n, dan hasilnya ditambahkan ke list. Dalam contoh ini, ketika n diatur ke 4, fungsi akan mengembalikan list [1, 1, 2, 6, 24], yang masing-masing merupakan faktorial dari 0, 1, 2, 3, dan 4. Program ini menunjukkan cara penggunaan rekursi untuk menyelesaikan masalah yang melibatkan perhitungan berulang.
+#### Screenshot Full Code
+<img width="210" alt="image" src="https://github.com/user-attachments/assets/07afe644-392e-4102-8fee-9cb901d9f5b5">
+
 #### Output
 <img width="109" alt="image" src="https://github.com/user-attachments/assets/682810b3-d576-479b-8944-a4de5e443266">
 
@@ -335,6 +352,9 @@ def main():
 main()
 ```
 Kode ini berfungsi untuk menentukan jumlah minimum koin yang dibutuhkan untuk mencapai jumlah uang tertentu menggunakan pendekatan dinamis. Fungsi minimum_coin_change(coins, amount) menerima dua argumen: daftar nilai koin dan jumlah uang yang ingin dicapai. Pertama, fungsi menginisialisasi array dp dengan ukuran amount + 1, di mana setiap elemen diisi dengan nilai tak terhingga (menggunakan float('inf')), kecuali dp[0] yang diatur ke 0, menunjukkan bahwa tidak diperlukan koin untuk mencapai jumlah 0. Fungsi kemudian menggunakan dua loop untuk memeriksa setiap koin dan memperbarui nilai di array dp dengan menentukan jumlah koin minimum yang diperlukan untuk mencapai jumlah x. Jika setelah proses ini nilai dp[amount] tetap tak terhingga, berarti tidak ada kombinasi koin yang dapat mencapai jumlah tersebut, dan fungsi akan mengembalikan -1. Jika tidak, fungsi mengembalikan jumlah koin minimum yang diperlukan. Fungsi main() mengatur alur program dengan meminta input dari pengguna, memanggil fungsi minimum_coin_change, dan menampilkan hasilnya, termasuk penanganan kesalahan jika input tidak valid. Program ini efektif dalam memecahkan masalah kombinatorial terkait koin dan jumlah uang.
+#### Screenshot Full Code
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/8e7bb870-02e0-4f0d-b267-f9bb792089db">
+
 #### Output
 <img width="440" alt="image" src="https://github.com/user-attachments/assets/05a43206-b38a-4e3c-8114-a3ba44b8f48f">
 
@@ -354,6 +374,9 @@ def main():
 main()
 ```
 Kode ini berfungsi untuk membalik setiap kata dalam sebuah string yang diberikan oleh pengguna. Fungsi reverse_words(input_string) menerima satu argumen, yaitu input_string, yang merupakan string yang ingin diproses. Pertama, string tersebut dipecah menjadi daftar kata menggunakan metode split(). Selanjutnya, list comprehension digunakan untuk membalik setiap kata dalam daftar dengan menggunakan slicing (word[::-1]). Hasilnya adalah daftar yang berisi kata-kata yang telah dibalik. Fungsi main() mengatur alur program dengan meminta pengguna untuk memasukkan sebuah string, memanggil fungsi reverse_words dengan input tersebut, dan mencetak daftar kata yang telah dibalik. Program ini sederhana dan efektif untuk memanipulasi teks, memberikan hasil yang jelas kepada pengguna.
+#### Screenshot Full Code
+<img width="283" alt="image" src="https://github.com/user-attachments/assets/07ad8dc0-c53e-42f1-a018-26ff11a13b73">
+
 #### Output
 <img width="229" alt="image" src="https://github.com/user-attachments/assets/5aae745b-77d6-4fec-a168-247faddf74f3">
 
@@ -383,6 +406,9 @@ for buku in [buku1, buku2, buku3]:
     print()  # Menambahkan garis kosong untuk pemisah
 ```
 Kode ini mendefinisikan sebuah kelas bernama Buku yang digunakan untuk merepresentasikan buku dengan atribut judul, penulis, dan tahun terbit. Metode __init__ bertugas untuk menginisialisasi objek baru dari kelas Buku dengan ketiga atribut tersebut. Metode tampilkan_informasi mencetak informasi tentang buku, termasuk judul, penulis, dan tahun terbit. Sementara itu, metode hitung_usia_buku menghitung usia buku berdasarkan tahun terbitnya dengan membandingkan tahun sekarang menggunakan modul datetime. Dalam contoh ini, tiga objek buku (buku1, buku2, dan buku3) dibuat dengan informasi yang berbeda. Program kemudian menggunakan loop untuk menampilkan informasi masing-masing buku dan menghitung serta mencetak usia buku. Kode ini memberikan cara yang terstruktur untuk mengelola informasi buku dan menghitung usia buku dengan jelas dan mudah dipahami.
+#### Screenshot Full Code
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/8acdd5ff-1292-4228-8d49-980e0edf76cd">
+
 #### Output
 <img width="217" alt="image" src="https://github.com/user-attachments/assets/f64c5c00-ba1e-4a04-bd6b-8f3ce1b889fd">
 
@@ -420,6 +446,9 @@ def main():
 main()
 ```
 Kode ini menerapkan algoritma pencarian biner untuk menemukan posisi angka dalam daftar genap yang sudah diurutkan. Fungsi binary_search(sorted_list, target) menerima dua argumen: sorted_list, yang merupakan daftar angka genap, dan target, angka yang ingin dicari. Algoritma ini bekerja dengan membagi daftar menjadi dua bagian dan menentukan apakah angka target ada di bagian kiri atau kanan, hingga ditemukan atau tidak ada. Fungsi ini mengembalikan indeks dari angka target jika ditemukan; jika tidak, ia mengembalikan -1. Dalam fungsi main(), program meminta pengguna untuk memasukkan angka yang ingin dicari. Jika angka yang dimasukkan adalah ganjil, program memberikan peringatan bahwa angka tersebut tidak dapat ditemukan dalam daftar genap. Jika angka genap dimasukkan, fungsi pencarian biner dipanggil, dan hasilnya dicetak, termasuk pesan jika angka tidak ditemukan. Program ini efektif untuk mencari angka dalam daftar dengan cepat dan mengedepankan penanganan input yang valid.
+#### Screenshot Full Code
+<img width="548" alt="image" src="https://github.com/user-attachments/assets/3c8e4b5b-39eb-4665-bfcc-2e778c1b816f">
+
 #### Output
 <img width="441" alt="image" src="https://github.com/user-attachments/assets/340510b7-4f7e-4e23-b28b-0ae82d373908">
 
