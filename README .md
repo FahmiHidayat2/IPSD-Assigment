@@ -1,7 +1,5 @@
-## Repository praktikum IPSD
-
 <pre>
-Nama : Agung Widiyanto
-NIM : 2211110001
-Kelas : S1SD03-A
+Nama : Fahmi Hidayat
+NIM : 2311110063
+Kelas : S1SD-04-B
 </pre>
