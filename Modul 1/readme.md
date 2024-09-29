@@ -65,6 +65,9 @@ umur = 20
 print(f"Nama : {nama} \nUmur : {umur}")
 ```
 Kode ini menyimpan informasi tentang seseorang bernama "Fahmi Hidayat" yang berusia 20 tahun. Variabel nama dan umur menyimpan nilai tersebut, dan perintah print menggunakan f-string untuk menampilkan informasi dengan format yang rapi, termasuk baris baru untuk memisahkan nama dan umur. Saat dijalankan, kode ini menghasilkan output yang menampilkan nama dan usia secara jelas.
+#### Screenshot Full Code
+<img width="265" alt="image" src="https://github.com/user-attachments/assets/0ca70dcf-d746-44ab-9eb1-6f93f25b631f">
+
 #### Output
 <img width="134" alt="image" src="https://github.com/user-attachments/assets/cb5b6301-2647-4e92-aa55-7ad93e3a103e">
 
@@ -79,6 +82,9 @@ keliling = 2*pi*jari
 print(f"Luas Lingkaran : {luas} \nKeliling Lingkaran : {keliling}")
 ```
 Kode ini menghitung luas dan keliling lingkaran dengan jari-jari 8. Menggunakan nilai π dari modul `math`, luas dihitung dengan rumus \( \text{luas} = \pi \times \text{jari}^2 \) dan keliling dengan rumus \( \text{keliling} = 2 \times \pi \times \text{jari} \). Hasil perhitungan ditampilkan menggunakan f-string dalam perintah `print`, sehingga menghasilkan output yang jelas mengenai luas dan keliling lingkaran.
+#### Screenshot Full Code
+<img width="393" alt="image" src="https://github.com/user-attachments/assets/1399f0ef-32d5-4c6f-b823-7b0932433dac">
+
 #### Output
 <img width="227" alt="image" src="https://github.com/user-attachments/assets/30d5c431-ddf4-41d1-ab0b-e8a8a7e50cd2">
 
@@ -90,6 +96,9 @@ a = int(a)
 print(f"Tipe Data a : {type(a)}")
 ```
 Kode ini menunjukkan konversi tipe data dari string ke integer di Python. Variabel `a` awalnya berisi string "123", dan `print` menampilkan tipe datanya sebagai `<class 'str'>`. Setelah mengubah `a` menjadi integer menggunakan `int(a)`, tipe datanya diperbarui menjadi `<class 'int'>`. Kode ini menggambarkan kemampuan Python untuk mengubah tipe data agar dapat melakukan operasi numerik.
+#### Screenshot Full Code
+<img width="205" alt="image" src="https://github.com/user-attachments/assets/c9aeecd9-8420-4840-9d9f-81c93675bf58">
+
 #### Output 
 <img width="176" alt="image" src="https://github.com/user-attachments/assets/0fc99df9-25ee-4fdb-a085-e38ffbe56471">
 
