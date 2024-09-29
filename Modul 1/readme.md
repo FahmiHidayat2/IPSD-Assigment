@@ -67,6 +67,7 @@ print(f"Nama : {nama} \nUmur : {umur}")
 Kode ini menyimpan informasi tentang seseorang bernama "Fahmi Hidayat" yang berusia 20 tahun. Variabel nama dan umur menyimpan nilai tersebut, dan perintah print menggunakan f-string untuk menampilkan informasi dengan format yang rapi, termasuk baris baru untuk memisahkan nama dan umur. Saat dijalankan, kode ini menghasilkan output yang menampilkan nama dan usia secara jelas.
 #### Output
 <img width="134" alt="image" src="https://github.com/user-attachments/assets/cb5b6301-2647-4e92-aa55-7ad93e3a103e">
+
 ### 2.
 
 ```python
