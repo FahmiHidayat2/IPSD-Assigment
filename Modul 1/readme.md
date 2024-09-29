@@ -42,15 +42,18 @@ Contoh: is_student = True
 
   Fungsi di Python didefinisikan menggunakan kata kunci def diikuti dengan nama fungsi, parameter (opsional), dan blok kode yang akan dieksekusi ketika fungsi dipanggil. Setelah didefinisikan, fungsi dapat dipanggil kapan saja dalam program.
 #### Perulangan
-1.For Loop
+Materi perulangan dalam pemrograman adalah konsep yang memungkinkan kita untuk menjalankan sekumpulan perintah atau instruksi secara berulang hingga kondisi tertentu terpenuhi.
+#### For Loop
 Perulangan FOR merupakan sebuah pernyataan mengulang suatu proses yang telah diketahui jumlah perulangannya.Perulangan for juga digunakan untuk mengiterasi (mengulang) sebuah koleksi, seperti list, tuple, atau string, serta rentang angka. Setiap item dalam koleksi tersebut akan diproses satu per satu.
-2.While Loop
+#### While Loop
 Perulangan while terus berjalan selama kondisi yang ditentukan adalah True. Loop ini sangat berguna ketika kita tidak tahu berapa kali perulangan harus dilakukan, tetapi kita tahu kondisi kapan perulangan harus berhenti.
-3.List comprehension 
+#### List comprehension 
 Adalah cara singkat dan efisien dalam Python untuk membuat list baru dari list yang sudah ada. Dengan list comprehension, kita bisa membuat list baru dengan menggunakan perulangan dan kondisi dalam satu baris kode. Ini membuat kode lebih ringkas dan mudah dibaca.
-4.If, Elif, Else 
+
+### Percabangan
+#### If, Elif, Else 
 Adalah struktur pengkondisian dalam Python yang digunakan untuk membuat keputusan berdasarkan kondisi tertentu. Dengan menggunakan pengkondisian ini, kita dapat mengarahkan alur program untuk melakukan tindakan berbeda tergantung pada apakah kondisi yang diberikan terpenuhi atau tidak.
-5.Nested conditionals 
+#### Nested conditionals 
 Adalah struktur pengkondisian di mana sebuah pernyataan if, elif, atau else ditempatkan di dalam pernyataan if, elif, atau else yang lain. Ini memungkinkan kita untuk membuat keputusan yang lebih kompleks dengan memeriksa beberapa kondisi secara berurutan dan bersarang. Dalam nested conditionals, setelah kondisi pertama diperiksa, kondisi lain di dalamnya juga dapat diperiksa tergantung hasil dari kondisi sebelumnya.
 
 ## Guided 
